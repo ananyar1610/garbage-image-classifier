@@ -30,7 +30,7 @@ README.md            # Project documentation
 
 ---
 
-## 📊 Dataset  
+## Dataset  
 The dataset consists of labelled images of waste divided into categories such as **plastics, paper, glass, metals, organic waste, and residual waste**.  
 Images are collected under varied lighting, resolution, and backgrounds.  
 
@@ -38,11 +38,11 @@ Images are collected under varied lighting, resolution, and backgrounds.
 - Training set: 80%  
 - Validation set: 20%  
 
-If you don’t have the dataset, you can use the [Garbage Classification Dataset on Kaggle](https://www.kaggle.com).  
+If you don’t have the dataset, you can use the [Garbage Classification Dataset on Kaggle]([https://www.kaggle.com](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2?utm_source=chatgpt.com)).  
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)  
+## Exploratory Data Analysis (EDA)  
 - **Class distribution** showed imbalance across categories (plastics and paper dominant).  
 - **Sample visualisations** confirmed labelling quality but highlighted noise such as cluttered backgrounds.  
 - **Image pre-processing** included resizing, normalisation, and augmentation (rotation, flips, zoom).  
@@ -52,17 +52,17 @@ EDA findings informed augmentation strategies and guided model selection for bet
 ---
 ---
 
-## 💻 Streamlit Dashboard  
+## Streamlit Dashboard  
 
 The project includes an interactive **Streamlit dashboard** for real-time garbage image classification. The dashboard provides a simple and intuitive interface where users can upload an image of waste and receive immediate predictions about its category.  
 
-### 🚀 Key Features  
+### Key Features  
 - **Image Upload**: Drag and drop or browse to upload an image.  
 - **Real-Time Prediction**: The model classifies the image into categories such as plastics, paper, glass, metals, or organic matter.  
 - **Visual Feedback**: The uploaded image is displayed alongside the predicted category.  
 - **Lightweight & Fast**: Powered by transfer learning (MobileNetV2/EfficientNetB0).  
 
-### 🔧 Run Locally  
+### Run Locally  
 To launch the dashboard:  
 ```bash
 streamlit run app/streamlit_app.py
