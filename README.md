@@ -66,3 +66,45 @@ The project includes an interactive **Streamlit dashboard** for real-time garbag
 To launch the dashboard:  
 ```bash
 streamlit run app/streamlit_app.py
+```
+---
+
+## Conclusion  
+
+This project demonstrates the effectiveness of **computer vision and deep learning** techniques in tackling real-world waste management challenges. By automating garbage classification, the system has the potential to reduce manual sorting, improve recycling efficiency, and support sustainable practices. The combination of a custom CNN and transfer learning models (MobileNetV2, EfficientNetB0) ensures a balance of performance and efficiency, making the solution practical for deployment in lightweight environments.  
+
+---
+
+## Future Improvements  
+
+Potential directions to further enhance the system include:  
+
+- **Model Fine-Tuning**: Unfreezing pre-trained layers to boost classification accuracy.  
+- **Larger Dataset**: Incorporating more diverse and balanced samples across waste categories.  
+- **Edge Deployment**: Optimising models for low-power devices like Raspberry Pi or mobile phones.  
+- **Explainability**: Adding Grad-CAM visualisations to highlight decision-making regions.  
+- **Multi-Label Classification**: Handling mixed waste images with multiple categories.  
+
+---
+
+## Contributing  
+
+Contributions are welcome! To contribute:  
+
+1. **Fork** the repository  
+2. **Create a new branch** (`git checkout -b feature-branch`)  
+3. **Commit changes** (`git commit -m "Add new feature"`)  
+4. **Push to branch** (`git push origin feature-branch`)  
+5. **Open a Pull Request**  
+
+Please ensure that your code follows best practices and is well-documented.  
+
+---
+
+## License  
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this project with proper attribution.  
+
+---
+
